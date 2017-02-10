@@ -1,0 +1,46 @@
+{
+  "name": "generator-szq",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "szq",
+    "email": "769053649@qq.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/app/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.26.0",
+    "precss": "^1.4.0",
+    "press": "0.0.2",
+    "webpack": "^1.12.0",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.6.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "/generator-szq",
+  "scripts": {
+    "dist": "webpack"
+  },
+  "license": "Apache-2.0"
+}
